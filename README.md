@@ -2,6 +2,9 @@
 
 This is a guide to best practices for developing applications that make use of LLMs.
 
+## Cache LLM Responses
+Add a caching layer in front of LLM calls. This can make automated tests much faster and reduce costs.
+
 ## AI Agents
 As of March 2024, there are significant disadvantages to using agents. Only resort to them if you really need to.
 

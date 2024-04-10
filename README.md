@@ -35,6 +35,9 @@ As of March 2024, there are significant disadvantages to using agents. Only reso
 #### Alternatives to AI Agents
 Whatever task you're asking an agent to complete, can you instead break it down into a number of sub-tasks that can be orchestrated through some traditionally-coded logic?
 
+### Have Good Evaluation Tooling
+Read [Your AI Product Needs Evals](https://hamel.dev/blog/posts/evals/)
+
 ## Reducing Development Cycle Time
 
 ### Cache LLM Responses

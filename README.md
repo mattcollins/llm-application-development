@@ -26,25 +26,23 @@ For example:
 2. Edit the draft to ensure tone is correct
 3. Edit the draft to ensure any quotes are accurate (original sources would need to be part of the context)
 
-## Using AI Agents
+## Avoid Agents if You Can
+As of May 2024, there are significant disadvantages to using agents. Only resort to them if you really need to.
 
-### Avoid Agents if You Can
-As of March 2024, there are significant disadvantages to using agents. Only resort to them if you really need to.
-
-#### Disadvantages of AI Agents
+### Disadvantages of AI Agents
 * They tend to be less reliable than non-agentic calls.
 * They're harder to test effectively as they can validly produce a wider range of outputs.
 
-#### Alternatives to AI Agents
+### Alternatives to AI Agents
 Whatever task you're asking an agent to complete, considering seeing if you can instead break it down into a number of sub-tasks that can be orchestrated through some traditionally-coded logic instead. This may be more reliable.
 
-### Give AI Agents Very Limited Tasks
-The more limited the scope of the task, the more likely the agent will be able to complete it.
+## If Using Agents, Give Them Very Limited Tasks
+The more limited the scope of the task, the more likely an agent will be able to complete it.
 
 ## Have Good Evaluation Tooling
 Read [Your AI Product Needs Evals](https://hamel.dev/blog/posts/evals/)
 
-## Reducing Development Cycle Time
+## Invest in Keeping Development Cycle Times Short
 
 ### Cache LLM Responses
 Add a caching layer in front of LLM calls. This can make automated tests much faster (and reduce costs.)
